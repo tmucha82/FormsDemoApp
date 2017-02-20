@@ -6,12 +6,14 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {DemoFormSkuComponent} from './demo-form-sku/demo-form-sku.component';
 import { DemoFormSkuBuilderComponent } from './demo-form-sku-builder/demo-form-sku-builder.component';
+import { DemoFormWithValidationsExplicitComponent } from './demo-form-with-validations-explicit/demo-form-with-validations-explicit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DemoFormSkuComponent,
-    DemoFormSkuBuilderComponent
+    DemoFormSkuBuilderComponent,
+    DemoFormWithValidationsExplicitComponent
   ],
   imports: [
     BrowserModule,
